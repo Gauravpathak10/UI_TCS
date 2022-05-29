@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Mockup</title>
+</head>
+
+<body>
+
+
+    <!-- <div class="container"> -->
+
+    <div class="made-nav">
+        <img src="images/butterfly.png" width="40px" alt="butterfly">
+
+        <i class="fa fa-search fa-2x nav-icon2" aria-hidden="true"></i>
+        <i class="fa fa-home fa-2x nav-icon" aria-hidden="true"></i>
+        <i class="fa fa-table fa-2x nav-icon" aria-hidden="true"></i>
+        <i class="fa fa-list-alt fa-2x nav-icon" aria-hidden="true"></i>
+        <i class="fa fa-user-o fa-2x nav-icon" aria-hidden="true"></i>
+    </div>
+
+    <div class="row main-row">
+        <!-- <div class="col-2 col-sm-2 col-md-1 col-lg-1 nav-col">.col-6 .col-sm-3</div> -->
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 user-info">
+            <div class="user-profile">
+
+                <div class="user-box">
+                    <img src="images/client.png" class="user-img" alt="">
+                    <div class="info">
+                        <p class="user-name">Hi Mike,</p>
+                        <p class="user-name2">welcome back</p>
+                    </div>
+                </div>
+                <p style="font-size: 20px; font-weight:600">Today</p>
+                <p style="font-size: 30px; font-weight: 700; margin-bottom: 0%;">$19,892</p>
+                <p style="font-size: 17px; color:gray; margin-top: 0%;">Account Balance</p>
+                <p style="font-size: 19px; font-weight:600; margin-bottom: 0%;">$4,000</p>
+                <p style="font-size: 17px; color:gray; margin-top: 0%;">Year-to-date-Contribution</p>
+                <p style="font-size: 19px; font-weight:600; margin-bottom: 0%;">$1,892</p>
+                <p style="font-size: 17px; color:gray; margin-top: 0%;">Total Interest</p>
+
+                <select name="name" id="" class="drop-btn">
+                    <option value="name">i want to</option>
+                </select>
+                <br>
+                <p style="font-size: 20px; font-weight:600">Recent transactions</p>
+                <p style="font-size: 17px; color:gray; margin-bottom: 0%;">2020-08-12</p>
+                <p style="font-size: 16px; font-weight:600; margin-top: 0%;">Withdrawal Transfer to Bank-XXX11</p>
+                <hr>
+                <p style="font-size: 17px; color:gray; margin-bottom: 0%;">2020-07-21</p>
+                <p style="font-size: 16px; font-weight:600; margin-top: 0%;">Withdrawal Transfer to Bank-XXX11</p>
+                <hr>
+                <p style="font-size: 17px; color:gray; margin-bottom: 0%;">2020-07-16</p>
+                <p style="font-size: 16px; font-weight:600; margin-top: 0%;">Withdrawal Transfer to Bank-XXX11</p>
+                <hr>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 main-graph">
+
+            <div class="main-content">
+                <p style="font-size: 18px; font-weight:600; color:royalblue; margin-bottom: 0%;">Retirement Income</p>
+                <p style="font-size: 24px; font-weight:600; margin-top: 0%;">Starting Year 2056</p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="padding: 20px;">
+                        <p style="font-size: 25px; font-weight: 700; margin-bottom:0%;">$300,000</p>
+                        <p style="font-size: 17px; color:gray; margin-top: 0%;">My Goal</p>
+                        <hr style="color: royalblue;">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="padding: 20px;">
+                        <p style="font-size: 25px; font-weight: 700; margin-bottom:0%;">$300,000</p>
+                        <p style="font-size: 17px; color:gray; margin-top: 0%;">Goal Achieved</p>
+                        <hr style="color: royalblue;">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="padding: 20px;">
+                        <p style="font-size: 25px; font-weight: 700; margin-bottom:0%;">$300</p>
+                        <p style="font-size: 17px; color:gray; margin-top: 0%;">Est, Month Income</p>
+                        <hr style="color: royalblue;">
+                    </div>
+
+                </div>
+
+                <p style="font-size:21px; font-weight:600;">Contribution Overtime</p>
+
+                <div class="graph-box">
+                    <!-- GRAPH SECTION............................................ -->
+                    <div id="columnchart_material"></div>
+                </div>
+                <p style="font-size: 21px; font-weight:600; margin-bottom: 0%;">How do I compare to my peer?</p>
+                <p style="font-size: 17px; color:gray; margin-top: 0%;">These number represent current goal achievment
+                </p>
+
+
+                <div class="graph-box2">
+                    <div id="donutchart"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 bar-side">
+            <div class="main-side">
+                <div class="color-content">
+
+                    <p style="font-size:20px; font-weight:600;">Retirement Strategy</p>
+
+                    <p style="font-size:18px; font-weight:600; margin-bottom: 0%;">Employee Contribution</p>
+
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <p id="slide-ans"></p>
+                    </div>
+
+
+                    <script>
+                        var slider = document.getElementById("myRange");
+                        var output = document.getElementById("slide-ans");
+                        output.innerHTML = slider.value; // Display the default slider value
+
+                        // Update the current slider value (each time you drag the slider handle)
+                        slider.oninput = function () {
+                            output.innerHTML = this.value + "%";
+                        } 
+                    </script>
+
+                    <p style="font-size:18px; font-weight:600; margin-bottom: 0%;">Retirement Age</p>
+
+                    <div class="slidecontainer2">
+                        <input type="range" min="1" max="100" value="50" class="slider2" id="myRange2">
+                        <p id="slide-ans2"></p>
+                    </div>
+
+                    <hr>
+
+
+                    <script>
+                        var slider2 = document.getElementById("myRange2");
+                        var output2 = document.getElementById("slide-ans2");
+                        output2.innerHTML = slider.value; // Display the default slider value
+
+                        // Update the current slider value (each time you drag the slider handle)
+                        slider2.oninput = function () {
+                            output2.innerHTML = this.value;
+                        } 
+                    </script>
+
+                    <div style="width: 100%; height: auto;">
+                        <div>
+                            <p style="font-size:17px; font-weight:600; display: inline-block;">Employer Contribution</p>
+                            <p style="font-size:17px; font-weight:600; float: right;">8.4%</p>
+                        </div>
+                        <div>
+                            <p style="font-size:17px; font-weight:600; display: inline-block;">Interest Rate</p>
+                            <p style="font-size:17px; font-weight:600; float: right;">5%</p>
+                        </div>
+
+                    </div>
+
+                    <button class="side-btn">Update</button>
+
+                    <div style="font-size: 17px; font-weight:600; color:royalblue; text-align:center; margin:20px 0px ">
+                        View Help Docs ></div>
+
+
+                </div>
+
+
+                <div class="border-box">
+                    <p style="font-size: 18px; margin-bottom:0%">Are you considering a</p>
+                    <p style="font-size: 18px; margin-top:0%; font-weight: 700; margin-bottom: 3px;">Housing Advance?
+                    </p>
+                    <p style="font-size: 16px; color:gray; margin-top: 0%; margin-bottom: 8px;">Limited time resuce
+                        interest.</p>
+                    <div style="font-size: 16px; font-weight:600; color:royalblue; margin-top: 0%;">Learn More ></div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="made-nav-bottom">
+        <!-- <img src="images/butterfly.png" width="40px" alt="butterfly"> -->
+
+        <i class="fa fa-search fa-2x nav-icon3" aria-hidden="true"></i>
+        <i class="fa fa-home fa-2x nav-icon3" aria-hidden="true"></i>
+        <i class="fa fa-table fa-2x nav-icon3" aria-hidden="true"></i>
+        <i class="fa fa-list-alt fa-2x nav-icon3" aria-hidden="true"></i>
+        <i class="fa fa-user-o fa-2x nav-icon3" aria-hidden="true"></i>
+    </div>
+    <!-- </div> -->
+
+
+
+
+</body>
+
+</html>
